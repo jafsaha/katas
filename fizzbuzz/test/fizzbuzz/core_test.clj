@@ -1,8 +1,8 @@
-(ns bowling.core-test
+(ns fizzbuzz.core-test
   (:require [clojure.test :refer :all]
-            [bowling.core :refer :all]))
+            [fizzbuzz.core :refer :all]))
 
-(deftest bowling 
-  (testing "strikes for all rolls"
+(deftest fizzbuzz 
+  (testing "Fizz"
     (is (= 300 (score "XXXXXXXXXXXX")))))
 
